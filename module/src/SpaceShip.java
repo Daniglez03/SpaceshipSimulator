@@ -100,6 +100,32 @@ public class SpaceShip {
         setCoordenadaX(coordenadaX + velocidadX);
         System.out.println("Velocidad eje X" + getVelocidadX() + "Posición en X" + getCoordenadaX());
     }
+    @Override
+    public String toString() {
+
+        return "/             /  \\\n" +
+                "           /      \\\n" +
+                "         /          \\\n" +
+                "--------|     /\\     |\n" +
+                "        |    /  \\    |\n" +
+                "        |   /    \\   |\n" +
+                "        |  | (  ) |  |\n" +
+                "        |  | (  ) |  |\n" +
+                "   /\\   |  |      |  |   /\\\n" +
+                "  /  \\  |  |      |  |  /  \\\n" +
+                " |----| |  |      |  | |----|\n" +
+                "-|    | | /|   .  |\\ | |    |\n" +
+                " |    | /  |   .  |  \\ |    |\n" +
+                " |    /    |   .  |    \\    |\n" +
+                " |  /      |   .  |      \\  |\n" +
+                "-|/        |   .  |        \\|\n" +
+                "/   NASA   |   .  |  NASA    \\\n" +
+                "(          |      |           )\n" +
+                "   |    | |--|      |--| |    |\n" +
+                "-/  \\-----/  \\/  \\-----/  \\--------\n" +
+                " \\\\//     \\\\//\\\\//     \\\\//\n" +
+                "  \\/       \\/  \\/       \\/";
+    }
 }
 
 
