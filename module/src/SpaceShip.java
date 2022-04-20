@@ -105,6 +105,10 @@ public class SpaceShip {
         setCoordenadaX(coordenadaX + velocidadX);
         System.out.println("La posición en X es: " + getCoordenadaX());
     }
+    public static void emergencyStop() {
+        setVelocidadX(0);
+        System.out.println("La velocidad ahora es: " + getVelocidadX() + "!");
+    }
     @Override
     public String toString() {
 
