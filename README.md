@@ -31,3 +31,4 @@ Crea un nuevo método que se denomine emergencyStop, que lo que haga es que la v
  Crea un nuevo documento en la carpeta docs de tu proyecto y denomínalo Cargo.md, procede como en el caso anterior explica el funcionamiento de tu clase Cargo así como cualquier referencia que hayas utilizado en este caso. Enlaza este nuevo documento desde el archivo Readme.md.
 #### Objetivo 11 :
  Por último, diseña una interfaz que permita al usuario crear una nueva nave, muestre su asciiArt correspondiente y permita que el usuario acelere, frene o pare. El usuario debe poder salir en cualquier momento de la aplicación.
+* [Funcionamiento de la clase SpaceShip](./.docs/SpaceShip.md)

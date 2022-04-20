@@ -100,6 +100,11 @@ public class SpaceShip {
         setCoordenadaX(coordenadaX + velocidadX);
         System.out.println("Velocidad eje X" + getVelocidadX() + "Posición en X" + getCoordenadaX());
     }
+    public static void brake() {
+        setVelocidadX(velocidadX - aceleración);
+        setCoordenadaX(coordenadaX + velocidadX);
+        System.out.println("La posición en X es: " + getCoordenadaX());
+    }
     @Override
     public String toString() {
 
