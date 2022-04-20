@@ -18,7 +18,14 @@ public class Cargo extends SpaceShip{
         if (capacidad >= MAX_CAPACIDAD) {
             System.out.println("La nave está llena !!!");
         }else {
-            capacidad ++;
+            capacidad++;
+        }
+    }
+    public static void unload() {
+        if (capacidad <= 0) {
+            System.out.println("No se pueden descargar más, está vacío");
+        }else  {
+            capacidad--;
         }
     }
 }
