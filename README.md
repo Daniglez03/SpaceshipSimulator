@@ -32,3 +32,4 @@ Crea un nuevo método que se denomine emergencyStop, que lo que haga es que la v
 #### Objetivo 11 :
  Por último, diseña una interfaz que permita al usuario crear una nueva nave, muestre su asciiArt correspondiente y permita que el usuario acelere, frene o pare. El usuario debe poder salir en cualquier momento de la aplicación.
 * [Funcionamiento de la clase SpaceShip](./.docs/SpaceShip.md)
+* [Funcionamiento de la clase Cargo](./.docs/Cargo.md)
