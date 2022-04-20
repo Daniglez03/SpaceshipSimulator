@@ -1,13 +1,13 @@
 public class SpaceShip {
-    private static String nombre;
-    private static String matrículaGaláctica;
-    private static float aceleración;
-    private static float velocidadX;
-    private static float velocidadY;
-    private static float coordenadaX;
-    private static float coordenadaY;
-    private static float direcciónX;
-    private static float direcciónY;
+    public static String nombre;
+    public static String matrículaGaláctica;
+    public static float velocidadX;
+    public static float aceleración;
+    public static float velocidadY;
+    public static float coordenadaX;
+    public static float coordenadaY;
+    public static float direcciónX;
+    public static float direcciónY;
 
     public SpaceShip(String nombre, String matrículaGaláctica, float
             aceleración, float velocidadX, float velocidadY, float
