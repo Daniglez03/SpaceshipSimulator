@@ -98,16 +98,16 @@ public class SpaceShip {
     public static void SpeedUp() {
         setVelocidadX(velocidadX + aceleración);
         setCoordenadaX(coordenadaX + velocidadX);
-        System.out.println("Velocidad eje X" + getVelocidadX() + "Posición en X" + getCoordenadaX());
+        System.out.println("Velocidad eje X : " + getVelocidadX() + " Posición en X : " + getCoordenadaX());
     }
     public static void brake() {
         setVelocidadX(velocidadX - aceleración);
         setCoordenadaX(coordenadaX + velocidadX);
-        System.out.println("La posición en X es: " + getCoordenadaX());
+        System.out.println("La velocidad de x es : " + getVelocidadX() + "La posición en X es: " + getCoordenadaX());
     }
     public static void emergencyStop() {
         setVelocidadX(0);
-        System.out.println("La velocidad ahora es: " + getVelocidadX() + "!");
+        System.out.println("La velocidad ahora es: " + getVelocidadX() + " !" + "Posición en X : " + getCoordenadaX());
     }
     @Override
     public String toString() {
